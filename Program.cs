@@ -1,4 +1,10 @@
 ﻿using MongoDB.Driver;
+using DotNetEnv;
+
+DotNetEnv.Env.Load();
+var mongoURI = Environment.GetEnvironmentVariable("MONGODB_URI");
+
+MongoClient client = new MongoClient(mongoURI);
 
 // Create a new collection called "playlists" in the "test" database.
 var playlistCollection = client.GetDatabase("sample_mflix").GetCollection<Playlist>("playlist");
