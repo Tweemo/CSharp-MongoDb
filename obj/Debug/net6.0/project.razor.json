@@ -1,0 +1,19 @@
+{
+  "FilePath": "/Users/timl/Desktop/Code/C#/MongoDB-C#/MongoDB-C#.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "6.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 1000
+  },
+  "RootNamespace": "MongoDB_C_",
+  "Documents": [],
+  "SerializationFormat": "0.2"
+}
